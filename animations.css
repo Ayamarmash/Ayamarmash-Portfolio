@@ -5,7 +5,16 @@
     75% {color:   rgb(252, 195, 255);}
     100% {color: rgb(255, 228, 255); }
   }
-
+  @keyframes rk {
+    0% { top: -50px;}
+    25%{top: -500px;}
+    55%{left: 100px;    transform: rotate(70deg);}
+    55%{top:-550px;}    
+    65%{transform: rotate(22deg);}
+    65%{transform: rotate(180deg);}
+    80%{transform: rotate(180deg);}
+    100%{top: -50px;}
+  }
   @keyframes typing {
     from {
       width: 0
