@@ -2,10 +2,8 @@
 <html>
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-
-
   <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
   <link href="animations.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
@@ -15,22 +13,38 @@
 
   <title>Aya Marmash</title>
 </head>
+<body class="w-[100%] h-[100%]">
+  <nav class="h-[50px] bg-[#1f1013] bg-opacity-25 px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0">
+    <div class="h-[30px] flex flex-wrap justify-between items-center mx-auto relative top-[-12px] left-[250px]">
+    <div class="flex md:order-2">
+    </div>
+    <div class=" hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="bg-white bg-opacity-0 flex flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0">
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white md:hover:text-[#D300B0] md:p-0 " aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white md:hover:text-[#D300B0] md:p-0 ">About</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white md:hover:text-[#D300B0] md:p-0 ">Projects</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white md:hover:text-[#D300B0] md:p-0 ">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+
 <div class="firstdiv">
 <p class=" text-violet-50	 decoration-1 text-5xl absolute top-[260px] left-72">
   Hi there, I'm Aya Marmash <span class="wave">👋🏻</span></p>
   <p class="typing text-[#FF73B9] decoration-1 basis-4 absolute top-[315px] left-72 text-xl">Software Engineer</p>
 <p class=" cg decoration-1 basis-4 absolute top-[370px] left-72 text-2xl hover:text-2xl">
-  A passionate Software Engineer with an experience of Front end development,<br> with good problem solving and algorithms skills,
-  <b>Searching for opportunities<br> in Front End development.</b>
+  Palestinian Software Engineering Student From Nablus, studying at An-najah National University.
 </p>
-<a href="https://www.linkedin.com/in/aya-marmash-b63294191/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
-  class="h-[2rem] w-[2rem] absolute top-[500px] left-[300px] hover:scale-[1.5]"/></a>
-
-<a href="https://github.com/Ayamarmash"><img src="https://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png" 
-  class="h-[2rem] w-[2rem] absolute top-[500px] left-[368px] hover:scale-[1.5]"/></a>
-
-<img src="https://www.transparentpng.com/thumb/facebook-logo-png/background-facebook-logo-5.png" 
-class="h-[3rem] w-[3rem] absolute top-[490px] left-[420px] hover:scale-[1.5]"/>
 
 <div class='light x1'></div>
   <div class='light x2'></div>
@@ -42,14 +56,17 @@ class="h-[3rem] w-[3rem] absolute top-[490px] left-[420px] hover:scale-[1.5]"/>
   <div class='light x8'></div>
   <div class='light x9'></div>  
 </div>
-<div class="bg-[#FFF9FE] h-[46rem]">
-<img src="a3.png" class="scale-[1.5] absolute left-[920px] top-[60rem]"/>
-<h1 class="text-pink-900 decoration-1 basis-4 absolute text-5xl left-[200px] top-[750px]">Quick summary</h1>
-<p class="text-pink-900 decoration-1 basis-4 absolute text-xl left-[200px] top-[850px]">Software Engineer with good problem solving and
-   algorithms skills, passionate about solving real-world <br>
-    problem through technologies. Searching for an opportunity in Front End development.</p>
-<div class="bg-pink-900 h-[5px] w-[100px] absolute left-[200px] top-[825px]"></div>
-<div class="relative left-[200px] top-[300px]">
+
+
+<div class=" bg-[#FFF9FE] h-[50rem] static">
+  <div>
+<img src="a3.png" class="scale-[1.5] absolute left-[920px] top-[68rem]"/>
+<h1 class="text-pink-900 decoration-1 basis-4 absolute text-5xl left-[200px] top-[800px]">Quick summary</h1>
+<p class="text-pink-900 decoration-1 basis-4 absolute text-xl left-[200px] top-[900px]">Palestinian Software Engineering Student from Nablus, specialized in frontend development,
+  studying at An-najah National University, and student at Re:Coded frontend bootcamp. having good record of voluntary work, 
+  good knowledge in Frontend princeples and problem solving, passionate about learn new things.</p>
+<div class="bg-pink-900 h-[5px] w-[100px] absolute left-[200px] top-[875px]"></div>
+<div class="relative left-[200px] top-[350px]">
   <p class="text-pink-900 decoration-1"><b>HTML</b></p>
 <div class="container bg-[#ddd] scale-[0.7] w-[600px]">
 
@@ -73,14 +90,113 @@ class="h-[3rem] w-[3rem] absolute top-[490px] left-[420px] hover:scale-[1.5]"/>
 <a href="Aya Marmash.pdf" download> <button class="bg-transparent hover:bg-fuchsia-900 text-fuchsia-900 font-semibold 
   hover:text-white py-2 px-4 border border-fuchsia-900 hover:border-transparent rounded relative left-[400px] top-[20px]"> Full Resume</button> </a>
 </div>
-
+</div>
 </div>
 
-<div class="bg-[#6A3261] h-[46rem]">
-  <h1 class="text-violet-50 decoration-1 basis-4 absolute text-6xl left-[200px] top-[1500px]">Technical Projects</h1>
-  <div class="bg-violet-50 h-[5px] w-[100px] absolute left-[200px] top-[1580px]"></div>
+<div class="bg-[#6A3261] h-[50rem] static ">
+  <div class="relative top-[50px]">
+  <h1 class="text-violet-50 decoration-1 basis-4 absolute text-6xl left-[200px] top-[45px]">Technical Projects</h1>
+  <div class="bg-violet-50 h-[5px] w-[100px] absolute left-[200px] top-[130px]"></div>
+    <div class="p-[80px] grid grid-cols-2 gap-6 relative top-[110px] left-[90px]">
+
+      <div class="p-6 max-w-md h-[230px] bg-[#FFF9FE] rounded-lg border border-gray-200 shadow-md hover:scale-[1.05]">
+        <a href="#">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Portfolio</h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          Portfolio Project was made using html, css, and Tailwind library, it's a summary for my experience and projects,
+          it was done during Re:Coded Frontend bootcamp.
+        </p>
+        <a href="https://github.com/Ayamarmash/Portfolio-Ayamarmash.github.io.-" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Source Code
+            <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+
+
+    <div class="p-6 max-w-md h-[230px] bg-[#FFF9FE] rounded-lg border border-gray-200 shadow-md hover:scale-[1.05]">
+      <a href="#">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Restaurant Website</h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        Simple Restaurant website made using html and vanilla CSS, it was done during the Re:coded Frontend bootcamp.
+      </p>
+      <a href="https://github.com/Ayamarmash/ResturantProject" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          Source Code
+          <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </a>
+    </div>
+
+
+    <div class="p-6 max-w-md h-[230px] bg-[#FFF9FE] rounded-lg border border-gray-200 shadow-md hover:scale-[1.05]">
+      <a href="#">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Project 3</h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+      <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          Source Code
+          <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </a>
+    </div>
+
+
+    <div class="p-6 max-w-md h-[230px] bg-[#FFF9FE] rounded-lg border border-gray-200 shadow-md hover:scale-[1.05]">
+      <a href="#">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Project 4</h5>
+      </a>
+      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+      <a href="#" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        Source Code
+        <svg aria-hidden="true" class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+      </a>
+    </div>
+    </div>
+  </div>
+</div>
 </div>
 
+  <footer class="footer ">
+    <div class="footer__addr">
+      <h1 class="footer__logo">Contact me</h1>
+          
+      <h2>Email</h2>
+      
+      <address>
+        amarmash@outlook.com<br>
+            
+        <a class="footer__btn" href="amarmash@outlook.com">Email Us</a>
+      </address>
+    </div>
+    
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Media</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Online</a>
+          </li>
+  
+          <li>
+            <a href="#">Print</a>
+          </li>
+              
+          <li>
+            <a href="#">Alternative Ads</a>
+          </li>
+        </ul>
+      </li>
+      <div class="absolute">
+        <a href="https://www.linkedin.com/in/aya-marmash-b63294191/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+          class="h-[2rem] w-[2rem] hover:scale-[1.5] relative left-[300px] top-[50px]"/></a>
+        
+        <a href="https://github.com/Ayamarmash"><img src="https://assets.stickpng.com/images/5847f98fcef1014c0b5e48c0.png" 
+          class="h-[2rem] w-[2rem] hover:scale-[1.5] relative left-[400px] top-[18px]"/></a>
+        
+        <img src="https://www.transparentpng.com/thumb/facebook-logo-png/background-facebook-logo-5.png" 
+        class="h-[3rem] w-[3rem] hover:scale-[1.5] relative left-[500px] top-[-22px]"/>
+      </div>
+  </footer>
 
  </body>
 </html>
